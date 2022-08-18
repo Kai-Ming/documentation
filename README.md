@@ -58,10 +58,10 @@ The app will be opened in the browser and be found at:
 
 In the project directory type into the terminal
 
+**might be wrong**
 ```
  npx cap sync android
  npx cap open android 
- *might be wrong
 ```
 
 The app should be opened in Android Studio where you can run the app on an emulator or on an Android device.
@@ -76,7 +76,6 @@ The app should be opened in Android Studio where you can run the app on an emula
 `/e2e` - the end to end folder  
 `/resources` - folder containing the resources for the app  
 `/src` - the folder for the source files  
-`/typings` - 
 
 ## **The source code can be found in in the folder:**
 **`/mobile-web3/src/app `**
