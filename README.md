@@ -87,10 +87,10 @@ The app should be opened in Android Studio where you can run the app on an emula
 Upon opening the app for the first time the user will be greeted with a splash screen. 
 &nbsp;
 
-<img src="https://user-images.githubusercontent.com/60563965/185289195-18655573-78e3-40aa-9e17-fb4360b6d1e8.png" alt="splash1" height="270px">
-<img src="https://user-images.githubusercontent.com/60563965/185289414-ff05cdda-02de-4d43-9860-5b8e650a5db4.png" alt="splash2" height="270px">
-<img src="https://user-images.githubusercontent.com/60563965/185289684-a619b2ce-e2b9-4398-b453-4e184fa36688.png" alt="splash3" height="270px">
-<img src="https://user-images.githubusercontent.com/60563965/185289762-5e496b93-f395-475f-85dd-c4213994189b.png" alt="splash4" height="270px">
+<img src="https://user-images.githubusercontent.com/60563965/185289195-18655573-78e3-40aa-9e17-fb4360b6d1e8.png" alt="splash1" width="270px">
+<img src="https://user-images.githubusercontent.com/60563965/185289414-ff05cdda-02de-4d43-9860-5b8e650a5db4.png" alt="splash2" width="270px">
+<img src="https://user-images.githubusercontent.com/60563965/185289684-a619b2ce-e2b9-4398-b453-4e184fa36688.png" alt="splash3" width="270px">
+<img src="https://user-images.githubusercontent.com/60563965/185289762-5e496b93-f395-475f-85dd-c4213994189b.png" alt="splash4" width="270px">
 
 &nbsp;
 
