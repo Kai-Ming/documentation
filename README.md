@@ -101,7 +101,7 @@ Upon opening the app for the first time the user will be greeted with a splash s
 <details>
     <summary>Code documentation</summary>
 
-#### Upon initialization, it will initialize the web3 functions. Upon construction it set the default network and the default currency in the local storage and set the array of languages used in the `languages` field.
+Upon initialization, it will initialize the web3 functions. Upon construction it set the default network and the default currency in the local storage and set the array of languages used in the `languages` field.
 
 - **`pushWelcome()`**  
   - Opens the welcome page.
@@ -123,7 +123,7 @@ The splash screen will have 4 slides and the last slide contains an option to ch
 <details>
     <summary>Code documentation</summary>
 
-### Upon initialization an array of languages are added where each language is in the form of an array where each contains 2 strings, one for the title and one of the code.
+Upon initialization an array of languages are added where each language is in the form of an array where each contains 2 strings, one for the title and one of the code.
 
 - **`changeLanguage(p)`**  
   - Changes the `default_language` value in the local storage.
