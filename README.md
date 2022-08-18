@@ -64,7 +64,7 @@ In the project directory type into the terminal
  npx cap open android 
 ```
 
-The app should be opened in Android Studio where you can run the app on an emulator or on an Android device.
+The app should open in Android Studio where you can run the app on an emulator or on an Android device.
 
 ## **To run the app on IOS:**
 
