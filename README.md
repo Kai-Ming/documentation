@@ -627,7 +627,7 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 &nbsp;
 
 # **Menu**
-### The side menu presents a couple of options.  
+The side menu presents a couple of options.  
 - `Home` - returns to the **`dashboard`** page.  
 - `Send` - opens the page to send currency.  
 - `Receive` - opens the page to receive currency.  
