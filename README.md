@@ -754,3 +754,5 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
   - The function calls the `TranslateService` class to get text for each given parameter translated to the target language and the text will be assigned to the field that corresponds to the text.
 
 </details>
+
+# FAQ
