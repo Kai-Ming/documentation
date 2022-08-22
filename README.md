@@ -68,7 +68,7 @@ The app should open in Android Studio where you can run the app on an emulator o
 
 ## **To run the app on IOS:**
 
-…
+[Deploying](https://ionicframework.com/docs/v3/intro/deploying/)
 
 # **Directories**
 
@@ -754,5 +754,3 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
   - The function calls the `TranslateService` class to get text for each given parameter translated to the target language and the text will be assigned to the field that corresponds to the text.
 
 </details>
-
-# FAQ
