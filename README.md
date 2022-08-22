@@ -454,8 +454,7 @@ A tab in the tabs page. Upon initialization, it will call the `setTranslation()`
 </details>
 &nbsp;
 
-There is a button that opens a modal window that is for changing the network, changing account. There are also button that opens the page to send currency and receive currency. There is also a menu on the top right.
-
+From the top left to the top right, there is a button that opens a modal window that is for changing the network, changing account and the menu. There are also button that opens the page to send currency and receive currency which are below the displayed currency. Below this section is a list of past transactions.
 
 ### **The files for the change network window will be found in:**  
 **`/mobile-web3/src/app/change-network`**
