@@ -60,6 +60,7 @@ In the project directory type into the terminal
 
 **might be wrong**
 ```
+ ionic build
  npx cap sync android
  npx cap open android 
 ```
