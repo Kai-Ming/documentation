@@ -58,7 +58,6 @@ The app will be opened in the browser and be found at:
 
 In the project directory type into the terminal
 
-**might be wrong**
 ```
  ionic build
  npx cap sync android
