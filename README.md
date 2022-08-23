@@ -706,7 +706,10 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 <details>
     <summary>Code documentation</summary>
 
-> No code yet
+On construction calls the `testing()` function.
+
+- **`testing`**
+  - Gets the NFT and the balance from the `Web3API` and show the NFT.
 
 </details>
 &nbsp;
