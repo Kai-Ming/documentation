@@ -28,10 +28,10 @@ Link to download Android Studio:
 Link to download Java SDK:  
 [Java SDK](https://www.java.com/en/download/)
 
-Link to download Gradke:  
+Link to download Gradle:  
 [Gradle](https://gradle.org/install/)
 
-Setting up on Windows:
+## **Setting up on Windows:**  
 
 Search "Edit System variable" to open the "System Properties" settings and click on "Environment Variables".
 
