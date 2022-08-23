@@ -28,11 +28,11 @@ Setting up on Windows:
 
 Search "Edit System variable" to open the "System Properties" settings and click on "Environment Variables".
 
-<img src="https://user-images.githubusercontent.com/60563965/184846251-53fe6992-708c-49cd-910e-513a1cce6077.png" alt="System environment" title="System environment" width="60%">
+<img src="https://user-images.githubusercontent.com/60563965/184846251-53fe6992-708c-49cd-910e-513a1cce6077.png" alt="System environment" title="System environment" width="50%">
 
 Add the 2 variables into "System variables" where the file path is to the Sdk file in the downloaded Android Studio folder.
 
-<img src="https://user-images.githubusercontent.com/60563965/184846699-adf4f72a-8d35-4846-a9fb-178a8e8bacf8.png" alt="System variables" title="System variables" width="60%">  
+<img src="https://user-images.githubusercontent.com/60563965/184846699-adf4f72a-8d35-4846-a9fb-178a8e8bacf8.png" alt="System variables" title="System variables" width="50%">  
 
 &nbsp;
 
