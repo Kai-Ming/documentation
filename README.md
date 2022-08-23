@@ -709,7 +709,7 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 On construction calls the `testing()` function.
 
 - **`testing`**
-  - Gets the NFT and the balance from the `Web3API` and show the NFT.
+  - Gets the NFT from the `Web3API`, and get the balance in Solana from `SolanaAPI` and show the NFT.
 
 </details>
 &nbsp;
