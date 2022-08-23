@@ -75,10 +75,11 @@ The app should open in Android Studio where you can run the app on an emulator o
 
 # **Directories**
 
-`/android` - contains the files to allow the app to run on Android devices   
-`/e2e` - the end to end folder  
-`/resources` - folder containing the resources for the app  
-`/src` - the folder for the source files  
+`/android` - contains the files to allow the app to run on Android devices.   
+`/e2e` - the end to end folder.   
+`/resources` - folder containing the resources for the app.    
+`/src` - the folder for the source files.   
+`/typings` - contains the Tyoescript definition files.  
 
 ## **The source code can be found in in the folder:**
 **`/mobile-web3/src/app`**
