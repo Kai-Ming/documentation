@@ -16,13 +16,20 @@ Ensure you have installed the following:
 - Java SDK
 - Gradle
 
-Link to setting up Ionic:
-
+Link to setting up Ionic:  
 [Ionic Framework setup](https://ionicframework.com/docs/intro/cli)
 
-Link to download Android Studio:
+Link to download Nodejs:   
+[Nodejs](https://nodejs.org/en/)
 
+Link to download Android Studio:  
 [Android Studio](https://developer.android.com/studio)
+
+Link to download Java SDK:  
+[Java SDK](https://www.java.com/en/download/)
+
+Link to download Gradke:  
+[Gradle](https://gradle.org/install/)
 
 Setting up on Windows:
 
@@ -64,14 +71,12 @@ In the project directory type into the terminal
  npx cap open android 
 ```
 
-The app should open in Android Studio where you can run the app on an emulator or on an Android device.
+The app should open in Android Studio where you can run the app on an emulator with a virtual device or on an Android device.  
+[Deploying on Android](https://ionicframework.com/docs/developing/android)
 
-<!--
-## **To run the app on IOS:**
+## **To run the app on iOS:**
 
-[Deploying](https://ionicframework.com/docs/v3/intro/deploying/)
-
--->
+[Deploying on iOS](https://ionicframework.com/docs/developing/ios)
 
 # **Directories**
 
