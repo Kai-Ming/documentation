@@ -320,7 +320,7 @@ Upon initialization, call the `checkCountDown()` function.
 </details>
 &nbsp;
 
-## Resetting Pin**
+## **Resetting Pin**
 **The files for the reset pin page will be found in:**  
 **`/mobile-web3/src/app/reset-wallet-pin`**
 
