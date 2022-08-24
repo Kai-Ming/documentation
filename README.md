@@ -124,7 +124,7 @@ Upon initialization, it will initialize the web3 functions. Upon construction it
 
 The splash screen will have 4 slides and the last slide contains an option to change the language and a start button that will open the welcome page.
 
-## **Changeing Language**
+## **Changing Language**
 **The files for the change language page will be found in:**  
 **`/mobile-web3/src/app/change-language`**
 - The front end is found in - `/mobile-web3/src/app/change-language/change-language.page.html`  
