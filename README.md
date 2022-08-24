@@ -102,7 +102,8 @@ Upon opening the app for the first time the user will be greeted with a splash s
 
 &nbsp;
 
-### **The files for the splash screen page will be found in:**
+## **Home/Splash Screen**
+**The files for the splash screen page will be found in:**
 **`/mobile-web3/src/app/home`**
 - The front end is found in - `/mobile-web3/src/app/home/home.page.html`  
 - The app logic is found in - `/mobile-web3/src/app/home/home.page.ts`
@@ -123,7 +124,8 @@ Upon initialization, it will initialize the web3 functions. Upon construction it
 
 The splash screen will have 4 slides and the last slide contains an option to change the language and a start button that will open the welcome page.
 
-### **The files for the change language page will be found in:**  
+## **Changeing Language**
+**The files for the change language page will be found in:**  
 **`/mobile-web3/src/app/change-language`**
 - The front end is found in - `/mobile-web3/src/app/change-language/change-language.page.html`  
 - The app logic is found in - `/mobile-web3/src/app/change-language/change-language.page.ts`
@@ -147,7 +149,8 @@ Upon opening the welcome page the user will be greeted with 2 options, one to cr
 
 <img src="https://user-images.githubusercontent.com/60563965/185290168-b2fb365a-d90c-4313-8e20-9f591de92cbb.png" alt="welcome" width="40%">
 
-### **The files for the welcome page will be found in:**  
+## **Welcome**
+**The files for the welcome page will be found in:**  
 **`/mobile-web3/src/app/welcome`**
 
 - The front end is found in - `/mobile-web3/src/app/welcome/welcome.page.html`  
@@ -167,7 +170,8 @@ Upon construction, check if there's a wallet, if yes, open the tabs page, else s
 </details>
 &nbsp;
 
-### **The files for the create wallet page will be found in:**  
+## **Creating a Wallet**
+**The files for the create wallet page will be found in:**  
 **`/mobile-web3/src/app/mnemonic`**
 
 - The front end is found in - `/mobile-web3/src/app/mnemonic/mnemonic.page.html`  
@@ -212,7 +216,8 @@ Upon initialization it will generate a mnemonic. Upon construction sets the tran
 
 The import wallet option opens the import wallet page and gives an option to import with private key and import with mnemonic.
 
-### **The files for the import wallet page will be found in:**  
+## **Importing Wallet**
+**The files for the import wallet page will be found in:**  
 **`/mobile-web3/src/app/import-wallet`**
 
 - The front end is found in - `/mobile-web3/src/app/import-wallet/import-wallet.page.html`  
@@ -278,7 +283,8 @@ After creating or importing a wallet the dashboard page will be opened.
 # **Opening the app on subsequent times**  
 The user will be greeted with a pin page to input the pin to access the account, there is an option to reset the pin which opens a different page.
 
-### **The files for the pin page will be found in:**  
+## **Inputting Pin**
+**The files for the pin page will be found in:**  
 **`/mobile-web3/src/app/pin`**
 
 - The front end is found in - `/mobile-web3/src/app/pin/pin.page.html`  
@@ -314,7 +320,8 @@ Upon initialization, call the `checkCountDown()` function.
 </details>
 &nbsp;
 
-### **The files for the reset pin page will be found in:**  
+## Resetting Pin**
+**The files for the reset pin page will be found in:**  
 **`/mobile-web3/src/app/reset-wallet-pin`**
 
 - The front end is found in - `/mobile-web3/src/app/reset-wallet-pin/reset-wallet-pin.page.html`  
@@ -358,7 +365,8 @@ The user will be greeted by the dashboard that show the current balance as well 
 
 <img src="https://user-images.githubusercontent.com/60563965/185352031-e309c36b-3de1-40c5-add0-32235bc8380a.png" alt="dashboard" width="40%">
 
-### **The files for the dashboard page will be found in:**  
+## **Dashboard**
+**The files for the dashboard page will be found in:**  
 **`/mobile-web3/src/app/dashboard`**
 
 - The front end is found in - `/mobile-web3/src/app/dashboard/dashboard.page.html`  
@@ -468,7 +476,8 @@ A tab in the tabs page. Upon initialization, it will call the `setTranslation()`
 
 From the top left to the top right, there is a button that opens a modal window that is for changing the network, changing account and the menu. There are also button that opens the page to send currency and receive currency which are below the displayed currency. Below this section is a list of past transactions.
 
-### **The files for the change network window will be found in:**  
+## **Changing Network**
+**The files for the change network window will be found in:**  
 **`/mobile-web3/src/app/change-network`**
 
 - The front end is found in - `/mobile-web3/src/app/change-network/change-network.page.html`  
@@ -494,7 +503,8 @@ Upon initialization the `setTranslation()` function is called. Upon construction
 </details>
 &nbsp;
 
-### **The files for the change account window will be found in:**  
+## **Changing Account**
+**The files for the change account window will be found in:**  
 **`/mobile-web3/src/app/change-account`**
 
 - The front end is found in - `/mobile-web3/src/app/change-account/change-accountin.page.html`  
@@ -514,7 +524,8 @@ Upon initialization, get the account list and private key list from the local st
 </details>
 &nbsp; 
 
-### **The files for the send transaction page will be found in:**  
+## **Sending Transaction**
+**The files for the send transaction page will be found in:**  
 **`/mobile-web3/src/app/send-transaction`**
 
 - The front end is found in - `/mobile-web3/src/app/send-transaction/send-transaction.page.html`  
@@ -602,10 +613,11 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 - **`presentAlertTransactionFailed()`**  
   - Presents an alert informing the failure in the transaction. Has a button with the 'ok' role that calls the `backToRoot()` function to return to the `dashboard` page.
 
-</details>
+</details>*
 &nbsp;
 
-### **The files for the receive transaction page will be found in:**  
+## **Receiving a Transaction**
+**The files for the receive transaction page will be found in:**  
 **`/mobile-web3/src/app/receive-transaction`**
 
 - The front end is found in - `/mobile-web3/src/app/receive-transaction/receive-transaction.page.html`  
@@ -649,7 +661,8 @@ The side menu presents a couple of options.
 
 <img src="https://user-images.githubusercontent.com/60563965/185352450-e7d7c0f8-bcb4-4f9c-b5dc-993df4ed5296.png" alt="menu" width="40%">
 
-### **The files for the transactions page will be found in:**  
+## **Transaction History**
+**The files for the transaction history page will be found in:**  
 **`/mobile-web3/src/app/transaction-history`**
 
 - The front end is found in - `/mobile-web3/src/app/transaction-history/transaction-history.page.html`  
@@ -702,7 +715,8 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 </details>
 &nbsp;
 
-### **The files for the NFT inventory page will be found in:**  
+## **NFT Inventory**
+**The files for the NFT inventory page will be found in:**  
 **`/mobile-web3/src/app/nft-inventory`**
 
 - The front end is found in - `/mobile-web3/src/app/nft-inventory/nft-inventory.page.html`  
