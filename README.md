@@ -421,12 +421,15 @@ A tab in the tabs page. Upon initialization, it will call the `setTranslation()`
   - Updates the price of ETH in the current selected currency.
 
 - **`getGlobalTokenList()`**  
+  **For EVM based networks** 
   - Check if the `currentNetwork` field is "BSC Mainnet" if it is, set the `currentTokenListToUse` field to `myTokenBSC`. Then try calling the API.
     - API link - <ins>`https://tokens.pancakeswap.finance/pancakeswap-extended.json`</ins>   
   - If the `tokens` array in the api has a length more than 0, assign an empty array to the `allTokenList` field. Then loop through the `tokens` array, adding each entry into the `allTokenList` array. Then call the `removeExistingToken()` and `removeExistingFavouriteToken()` functions with the `coins` field as the parameter, and set the `allTokensBSC` field in the storage with the `allTokenList` field as a string.  
   - If an error happens, a variable `allTokens` will be assigned with the `allTokensBSC` field from the storage after being parsed, and if `allTokens` is not null, and array will be formed from `allTokens` and assigned to the `allTokenList` field.  
   - Then try to call the api for getting the token of the given wallet address. If the length of the `coins` array in the API is more than or equal to 0, call the `tidyTokenInfo()` function with the `data.items` from the api as the parameter.   
     - API link - <ins>`https://api.covalenthq.com/v1/56/address/`</ins>, and uses the `walletAddress` and `currentCurrency` fields as the query parameters.  
+  
+  **For Solana network**
   - If the `currentNetwork` field is not `BSC Mainnet`, repeat the process for "Solana Mainnet".
     - API for token list - <ins>`https://cdn.jsdelivr.net/gh/solana-labs/token-list@latest/src/tokens/solana.tokenlist.json`</ins>  
     - API for wallet address - <ins>`https://api.covalenthq.com/v1/1399811149/address/`</ins>, and uses the `walletAddress` and `currentCurrency` fields as the query parameters. 
@@ -520,7 +523,7 @@ Upon initialization, get the account list and private key list from the local st
 <details>
     <summary>Code documentation</summary>
 
-Upon initialization, it will call the `setTranslation()` function to set the text to the target language. Import information from the local storage to the field. Call the `checkCountDown()` function to check if the countdown is over. If the current network is not Solana, call the `getGasFeeEstimate()` function to get an estimate of the gas fee, else get the private key for solana from the local storage and store it in the `solanaPrivKey` field.  
+Upon initialization, it will call the `setTranslation()` function to set the text to the target language. Import information from the local storage to the field. Call the `checkCountDown()` function to check if the countdown is over. If the current network is not Solana, call the `getGasFeeEstimate()` function to get an estimate of the gas fee, else get the private key for Solana from the local storage and store it in the `solanaPrivKey` field.  
 
 - **`getGasFeeEstimate()`**  
   - Check if the network is BSC, if yes, call the api to get the gas fee for "fast", "average" and "slow".
@@ -667,12 +670,6 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 - **`presentLoadingCustom()`**  
   - Presents a custom loading screen.
 
-- **`getTransactions()`**  
-  - Gets a list of all the past transactions.
-
-- **`getSolTransaction()`**  
-  - Gets the most recent 1000 transactions on Solana.
-
 - **`updateTxRange()`**   
   - Displays all the past transactions of the current network.
 
@@ -694,6 +691,14 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 - **`setTranslation()`**  
   - The function calls the `TranslateService` class to get text for each given parameter translated to the target language and the text will be assigned to the field that corresponds to the text.
 
+**For EVM based networks**
+- **`getTransactions()`**  
+  - Gets a list of all the past transactions.
+
+**For Solana network**
+- **`getSolTransaction()`**  
+  - Gets the most recent 1000 transactions on Solana.
+  
 </details>
 &nbsp;
 
