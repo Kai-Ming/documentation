@@ -788,3 +788,12 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
   - The function calls the `TranslateService` class to get text for each given parameter translated to the target language and the text will be assigned to the field that corresponds to the text.
 
 </details>    
+
+# **Erros**
+
+`PIN does not match` - The PIN that is reinputted does not match the pin originally inputted.   
+`Invalid Private Key` - The private key that was used to import is not in the right format of 32 bytes.  
+`Invalid PIN` - The PIN is incorrect, the inputting of PIN will be temporarily blocked after too many failed attempts.  
+
+
+
