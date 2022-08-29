@@ -794,6 +794,8 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 `PIN does not match` - The PIN that is reinputted does not match the pin originally inputted.   
 `Invalid Private Key` - The private key that was used to import is not in the right format of 32 bytes.  
 `Invalid PIN` - The PIN is incorrect, the inputting of PIN will be temporarily blocked after too many failed attempts.  
+`Wallet not found` -  No wallet for the current network.  
+`The transaction has failed` - The currency failed to be sent.  
 
 
 
