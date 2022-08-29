@@ -789,7 +789,7 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 
 </details>    
 
-# **Erros**
+# **Errors**
 
 `PIN does not match` - The PIN that is reinputted does not match the pin originally inputted.   
 `Invalid Private Key` - The private key that was used to import is not in the right format of 32 bytes.  
