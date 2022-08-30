@@ -616,7 +616,7 @@ Upon initialization, it will call the `setTranslation()` function to set the tex
 - **`presentAlertTransactionFailed()`**  
   - Presents an alert informing the failure in the transaction. Has a button with the 'ok' role that calls the `backToRoot()` function to return to the `dashboard` page.
 
-</details>*
+</details>
 &nbsp;
 
 ## **Receiving a Transaction**
