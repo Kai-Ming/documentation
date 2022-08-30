@@ -63,18 +63,6 @@ The app will be opened in the browser and be found at:
 
 ## **To run the app on Android:**
 
-<!--
-In the project directory type into the terminal
-
-```
- ionic build
- npx cap sync android
- npx cap open android 
-```
-
-The app should open in Android Studio where you can run the app on an emulator with a virtual device or on an Android device. 
--->
-
 [Deploying on Android](https://ionicframework.com/docs/developing/android)
 
 ## **To run the app on iOS:**
